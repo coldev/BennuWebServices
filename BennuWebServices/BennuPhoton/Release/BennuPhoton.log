@@ -1,0 +1,101 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (BennuPhoton.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  base64.cc
+  BennuPhoton.cpp
+BennuPhoton.cpp(316): warning C4244: 'inicializando': conversión de 'unsigned int' a 'float'; posible pérdida de datos
+BennuPhoton.cpp(329): warning C4244: 'inicializando': conversión de 'unsigned int' a 'float'; posible pérdida de datos
+BennuPhoton.cpp(709): warning C4244: 'inicializando': conversión de 'json_int_t' a 'int'; posible pérdida de datos
+BennuPhoton.cpp(725): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  AES.cpp
+CRYPTOLIB\AES.cpp(77): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: vea la declaración de 'strcpy'
+CRYPTOLIB\AES.cpp(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: vea la declaración de 'strncpy'
+CRYPTOLIB\AES.cpp(90): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: vea la declaración de 'strncpy'
+  encripta.cpp
+  sha256.cpp
+CRYPTOLIB\sha256.cpp(131): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: vea la declaración de 'sprintf'
+  stdafx.cpp
+  tinyxml2.cpp
+  ColdevCompress.cpp
+zlib\ColdevCompress.cpp(98): warning C4101: 'c': variable local sin referencia
+  dllmain.cpp
+  dump.c
+json\dump.c(352): warning C4090: 'función': distintos calificadores 'const'
+json\dump.c(367): warning C4090: 'función': distintos calificadores 'const'
+json\dump.c(376): warning C4090: 'función': distintos calificadores 'const'
+json\dump.c(384): warning C4090: 'función': distintos calificadores 'const'
+json\dump.c(390): warning C4090: 'función': distintos calificadores 'const'
+json\dump.c(478): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: vea la declaración de 'fopen'
+  error.c
+json\error.c(28): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: vea la declaración de 'strncpy'
+json\error.c(31): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: vea la declaración de 'strncpy'
+json\error.c(32): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: vea la declaración de 'strncpy'
+  hashtable.c
+json\hashtable.c(257): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: vea la declaración de 'strncpy'
+  hashtable_seed.c
+  load.c
+json\load.c(1035): warning C4101: 'c': variable local sin referencia
+json\load.c(1084): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: vea la declaración de 'fopen'
+json\load.c(1088): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(178): note: vea la declaración de 'strerror'
+  memory.c
+  pack_unpack.c
+  strbuffer.c
+  strconv.c
+  utf.c
+  value.c
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+zlib\gzlib.c(193): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1008): note: vea la declaración de 'wcstombs'
+zlib\gzlib.c(208): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1008): note: vea la declaración de 'wcstombs'
+zlib\gzlib.c(243): warning C4996: '_wopen': This function or variable may be unsafe. Consider using _wsopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wio.h(257): note: vea la declaración de '_wopen'
+zlib\gzlib.c(245): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(514): note: vea la declaración de 'open'
+  gzread.c
+zlib\gzread.c(35): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(521): note: vea la declaración de 'read'
+zlib\gzread.c(41): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(178): note: vea la declaración de 'strerror'
+zlib\gzread.c(651): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(457): note: vea la declaración de 'close'
+  gzwrite.c
+zlib\gzwrite.c(89): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(556): note: vea la declaración de 'write'
+zlib\gzwrite.c(91): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(178): note: vea la declaración de 'strerror'
+zlib\gzwrite.c(110): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(556): note: vea la declaración de 'write'
+zlib\gzwrite.c(112): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(178): note: vea la declaración de 'strerror'
+zlib\gzwrite.c(661): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(457): note: vea la declaración de 'close'
+  infback.c
+  Compilando...
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  uncompr.c
+  zutil.c
+     Creando biblioteca C:\Importante\OPENSOURCE\Bennu\BennuWebServices\Release\bennuwebservices.lib y objeto C:\Importante\OPENSOURCE\Bennu\BennuWebServices\Release\bennuwebservices.exp
+  Generando código
+  80 of 630 functions (12.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    18 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  BennuPhoton.vcxproj -> C:\Importante\OPENSOURCE\Bennu\BennuWebServices\Release\bennuwebservices.dll
